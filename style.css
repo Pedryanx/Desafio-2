@@ -1,0 +1,158 @@
+section{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.esquerda{
+  display:flex;
+  justify-content:space-evenly;
+  width: 80%;
+}
+
+.direita{
+  display: flex;
+  justify-content: space-evenly;
+  width: 20%;
+}
+
+.menu{
+  display: flex;
+  width: 100%;
+  color:antiquewhite;
+}
+
+.psg{ 
+  width: 2%;
+  height: 20px;
+}
+
+#começo{
+  color: white;
+  text-decoration: none;
+  }
+
+#registrar{
+  color:white;
+  text-decoration: none;
+  background-color: red;
+  padding: 3px 3px 3px 3px;
+  border-radius: 1px;
+  }
+
+#lermais{
+text-decoration: none;
+color: red;
+}
+
+#registrar:hover{
+background-color: rgb(86, 34, 34);
+}
+
+.comentário{
+  display:flex;
+  flex-direction: column;
+  padding: 120px 200px 120px 200px;
+  width: 30%;
+  color:white;
+  }
+
+.placar{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  padding: 50px 400px 50px 400px;
+}
+
+.conheça{ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: justify;
+  padding: 200px 300px 200px 300px;
+  background-image: url("style/img/neyma2.webp");
+  background-size: 100%;
+  background-color: transparent;
+  }
+
+.texto{
+padding:20px 40px 20px 30px;
+background-color: rgb(253, 253, 253);
+border-radius: 2px;
+}
+
+header{
+background-image: url("style/img/neymar-1.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.montpelli{
+width: 10%;
+height: 4%;
+}
+
+.PSG{
+width:10%;
+height: 4%;
+}
+
+.fotos{
+display: flex;
+width: 250px;
+height: 180px;
+flex-direction: row;
+}
+
+.noticias{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 40px 0px 40px 0px;
+}
+
+.ultimas{
+padding: 80px 100px 80px 100px;
+border: 70px;
+}
+
+.publi{
+display:flex;
+flex-direction: column;
+padding: 10px 10px 10px 10px;
+background-color: white;
+border-radius: 2px;
+}
+
+#carregar{
+text-decoration: none;
+color:rgb(255, 255, 255);
+background-color: red;
+border-radius: 3px;
+padding: 3px 3px 3px 3px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(23, 20, 37);
+  }
+
+.linguas{
+color: white;
+}
+
+.redes{
+  color: white;
+  }  
+
+.clube{
+color:white;
+}
+
+h3{
+  border-left: 2px solid rgb(255, 3, 3);
+  padding-left: 5px;
+  }
